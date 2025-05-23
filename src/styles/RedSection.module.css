@@ -1,0 +1,21 @@
+.container {
+  background-color: #ed1c24; /* Bright red */
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+  margin: 3rem 0;
+  margin-top: 7rem;
+}
+
+.heading {
+  font-size: 35.7px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.subtext {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}

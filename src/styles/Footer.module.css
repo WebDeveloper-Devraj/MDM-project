@@ -1,0 +1,99 @@
+.footer {
+  background-color: #000;
+  color: #ccc;
+  padding: 60px 30px 15px 100px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.topSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.column h4 {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 3rem;
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 8px;
+  line-height: 2rem;
+  font-size: 0.95rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.column ul li:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  position: relative;
+}
+
+.bottomSection p {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.floatingButtons {
+  position: absolute;
+  bottom: -50px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.redButton {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.redButton:hover {
+  background-color: #cc0812;
+}
+
+.copyRight {
+  background-color: #fff;
+  text-align: center;
+  padding-block: 1.1rem;
+  font-size: 1rem;
+  font-weight:100;
+}

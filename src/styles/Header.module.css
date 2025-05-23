@@ -1,0 +1,102 @@
+.header {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding-inline: 6rem;
+  padding-bottom: 8px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+  /* border: 2px solid red; */
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-inline: 10px;
+  font-size: 14px;
+  /* background-color: #f9f9f9; */
+  border-bottom: 1px solid #c1bfbf;
+}
+
+.topBar p {
+  color: #838383;
+}
+
+.topLinks a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.topLinks a:hover {
+  color: #eb3838;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  padding-top: 0.8rem;
+  padding-inline: 20px;
+  background-color: #fff;
+  z-index: 1000;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navLinks a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #838383;
+}
+
+.navLinks a:hover {
+  color: #eb3838;
+}
+
+.floatingButtons {
+  position: absolute;
+  /* bottom: -50px; */
+  /* right: 20px; */
+  right: 70px;
+  top: 500px;
+  width: 10rem;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.floatingButtons span {
+  width: 8rem;
+}
+
+.redButton {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+
+.redButton:hover {
+  background-color: #cc0812;
+}

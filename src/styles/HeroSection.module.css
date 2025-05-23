@@ -1,0 +1,89 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 90px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-top: 110px;
+}
+
+.left {
+  flex: 1;
+  width: 350px;
+}
+
+.subHeading {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 41px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.primaryBtn {
+  background-color: #ff3e3e;
+  color: white;
+  border: none;
+  padding: 0px 15px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.secondaryBtn {
+  background-color: white;
+  color: #ff3e3e;
+  border: 2px solid #ff3e3e;
+  padding: 6px 15px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.globeImg {
+  width: 100%;
+  max-width: 500px;
+}
+
+.stats {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stats h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stats p {
+  font-size: 16px;
+  color: #555;
+}

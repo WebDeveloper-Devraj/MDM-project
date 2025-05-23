@@ -1,0 +1,93 @@
+.carouselWrapper {
+  background-color: #f5f7fa;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #a10005;
+  margin-bottom: 2rem;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 92%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  /* border: 2px solid black; */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.textSection {
+  flex: 1;
+  padding: 2rem;
+  text-align: left;
+}
+
+.quoteIcon {
+  color: #d90429;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.quoteText {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.imageSection {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.arrowLeft,
+.arrowRight {
+  background: rgb(209, 59, 59);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  transition: background 0.3s;
+}
+
+.arrowLeft {
+  left: 0px;
+}
+
+.arrowRight {
+  right: 0px;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+  background: #ffefef;
+}
